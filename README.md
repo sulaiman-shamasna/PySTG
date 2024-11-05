@@ -9,8 +9,12 @@ To use this package, follow the following stepps:
     ```bash
     git clone git@github.com:sulaiman-shamasna/PySTG.git && cd PySTG
     ```
-
-2. create a virtual environment:
+2. Create a ```.env``` file and put there your *OPENAI_API_KEY*, it should look like:
+    ```python
+    ## .env
+    OPENAI_API_KEY='sh-...'
+    ```
+3. create a virtual environment:
     ```bash
     python -m venv env
     ```
@@ -23,7 +27,7 @@ To use this package, follow the following stepps:
     source env/bin/activate         # For Linux or Mac
     ```
 
-3. Install the package using the command:
+4. Install the package using the command:
     ```bash
     pip install -e .
     ```
